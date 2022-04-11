@@ -1,0 +1,89 @@
+/* *{
+  margin: 0%;
+  padding: 0%;
+} */
+h3{
+  text-align:start;
+
+}
+.App {
+  text-align: center;
+  margin: auto;
+  border: 1px solid salmon;
+  border-radius: 10px; 
+  width: 90%;
+  height: 400px;
+  
+
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  
+
+}
+.addScore{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-left: 10px;
+  
+}
+.addWicket{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  margin-left: 10px;
+  
+}
+.addBall{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+button{
+  height: 35px;
+  width: 75px;
+  background-color: salmon;
+  color:white;
+  margin-left: 20px;
+  border: 1px solid rgb(243, 147, 163);
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
