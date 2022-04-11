@@ -38,6 +38,7 @@ function App() {
           <h1 className="scoreCount">
             {
               // show "score" here
+              score
             }
           </h1>
         </div>
@@ -46,6 +47,7 @@ function App() {
           <h1 className="wicketCount">
             {
               // show wicket here
+              wicket
             }
           </h1>
         </div>
